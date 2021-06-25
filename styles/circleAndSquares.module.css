@@ -1,0 +1,88 @@
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: flex-end;
+  background-color: #D0D2D4;
+}
+
+.circleRowRed {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: flex-end;
+  transform: translateX(74px) translateY(-90px);
+  mix-blend-mode: darken;
+}
+
+.circleRowBlack {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: flex-end;
+}
+.containerSquare {
+  height: 248px;
+  width: 248px;
+  background-color: #FFFFFF;
+  border: 1px solid #02ADDE;
+  transform: rotate(-45deg);
+  position:absolute;
+  display: flex;
+  zIndex:1;
+  align-items: center;
+  justify-content: center;
+}
+
+.greySquare {
+  height: 248px;
+  width: 248px;
+  background-color: #D0D2D4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  zIndex:1;
+}
+
+.blueSquare {
+  height: 175px;
+  width: 175px;
+  transform: rotate(45deg);
+  background-color: #02ADDE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  zIndex:1;
+  margin: 0px 36px;
+}
+
+.greyCircle {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  zIndex:1;
+  background-color: #D0D2D4;
+}
+
+
+.redCircle {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  background-color: #EE281B;
+  transform: translateX(60px) translateY(60px);
+  mix-blend-mode: darken;
+}
+
+.blackCircle {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  background-color: #D0D2D4;
+  transform: translateX(-70px) translateY(-70px);
+  mix-blend-mode: difference;
+}
