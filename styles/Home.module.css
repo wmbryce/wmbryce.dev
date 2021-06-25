@@ -1,20 +1,61 @@
 .container {
-  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  background-color: #D0D2D4;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-bottom:10px
+}
+
+.menubar {
+  text-align:right;
+  position: absolute;
+  top: 45px;
+  right: 45px;
+  width:270px;
+  height:250px;
+  padding:10px;
+  //background-color: #D0D2D4;
+  border-radius: 8px ;
+  z-index:5;
+}
+
+.title {
+  font-family: helvetica;
+  color: #020413;
+  font-size:36px;
+  text-decoration: none;
+}
+.menuItem {
+  font-family: helvetica;
+  color: #020413;
+  mix-blend-mode: darken;
+  font-size:18px;
+  text-decoration: none;
+
+}
+.menuItem:hover {
+  color: #EE281B;
+  border-bottom: 1px solid #EE281B;
+  width:100%;
+  mix-blend-mode: darken;
 }
 
 .main {
-  padding: 5rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-top:260px;
+  margin-right:20px;
+  justify-content: flex-start;
+  width:100vw;
+  align-items: flex-start;
+  overflow: hidden;
 }
 
 .footer {
@@ -26,6 +67,7 @@
   align-items: center;
 }
 
+
 .footer a {
   display: flex;
   justify-content: center;
@@ -33,24 +75,6 @@
   flex-grow: 1;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
 .description {
   text-align: center;
 }
@@ -88,34 +112,4 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 45%;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
 }
