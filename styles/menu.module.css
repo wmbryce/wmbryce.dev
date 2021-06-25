@@ -1,0 +1,50 @@
+.menubar {
+  text-align:right;
+  position: absolute;
+  top: 45px;
+  right: 45px;
+  width:270px;
+  height:250px;
+  padding:10px;
+  //background-color: #D0D2D4;
+  border-radius: 8px ;
+  z-index:5;
+}
+
+.title {
+  font-family: helvetica;
+  color: #020413;
+  font-size:36px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.menuItem {
+  cursor: pointer;
+  font-family: helvetica;
+  color: #020413;
+  mix-blend-mode: darken;
+  font-size:18px;
+  text-decoration: none;
+  margin: 14px 0px;
+}
+.menuItem:hover {
+  color: #EE281B;
+  border-bottom: 1px solid #EE281B;
+  width:100%;
+  mix-blend-mode: darken;
+}
+
+.trailsText {
+  position: relative;
+  width: 100%;
+  color: black;
+  font-size: 6em;
+  font-weight: 800;
+  will-change: transform, opacity;
+  overflow: hidden;
+}
+
+.trailsText > div {
+  padding-right: 0.05em;
+  overflow: hidden;
+}

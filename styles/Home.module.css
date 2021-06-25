@@ -30,14 +30,16 @@
   color: #020413;
   font-size:36px;
   text-decoration: none;
+  cursor: pointer;
 }
 .menuItem {
+  cursor: pointer;
   font-family: helvetica;
   color: #020413;
   mix-blend-mode: darken;
   font-size:18px;
   text-decoration: none;
-
+  margin:14px 0px;
 }
 .menuItem:hover {
   color: #EE281B;
