@@ -7,6 +7,14 @@
   background-color: #D0D2D4;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: flex-end;
+  background-color: #D0D2D4;
+}
+
 .circleRowRed {
   display: flex;
   flex-direction: row;
@@ -46,8 +54,8 @@
 }
 
 .blueSquare {
-  height: 175px;
-  width: 175px;
+  height: 125px;
+  width: 125px;
   transform: rotate(45deg);
   background-color: #02ADDE;
   display: flex;
@@ -59,8 +67,8 @@
 
 .greyCircle {
   position: absolute;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   border-radius: 150px;
   zIndex:1;
   background-color: #D0D2D4;
@@ -69,8 +77,8 @@
 
 .redCircle {
   position: absolute;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   border-radius: 150px;
   background-color: #EE281B;
   transform: translateX(60px) translateY(60px);
@@ -79,8 +87,8 @@
 
 .blackCircle {
   position: absolute;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   border-radius: 150px;
   background-color: #D0D2D4;
   transform: translateX(-70px) translateY(-70px);
