@@ -11,11 +11,21 @@ export default function Home() {
     console.log('Hello');
   },[])
 
+  const [didScroll, setDidScroll] = useState(false);
+
+  const scrollInProgress = () => {
+    setDidScroll(true);
+  }
+  //console.log(window.scrollY);
+
+  //window.addEventListener('scroll', scrollInProgress)
+
   return (
     <div className={styles.container}>
       <Menu/>
       <div className={styles.main}>
         <CirclesAndSquares hideBlackCircle={true}/>
+        <CirclesAndSquares/>
         <CirclesAndSquares/>
         <CirclesAndSquares/>
       </div>
