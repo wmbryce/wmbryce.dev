@@ -1,47 +1,87 @@
 .container {
   height: 100vh;
   width: 100vw;
-  //padding: 0 0.5rem;
+  /* padding: 0 0.5rem; */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #D0D2D4;
+  background-color: #d0d2d4;
   overflow-x: hidden;
   overflow-y: scroll;
-  padding-bottom:10px
+  padding-bottom: 10px;
 }
 
 .title {
   font-family: helvetica;
   color: #020413;
-  font-size:36px;
+  font-size: 36px;
   text-decoration: none;
   cursor: pointer;
+  margin: 0px 0px 12px 0px;
+}
+
+.illustration {
+}
+
+.mainContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  /* overflow-y: scroll; */
+  /* overflow: hidden; */
 }
 
 .main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin: 90px 0px 0px 270px;
+  margin: 90px 0px 0px 40px;
   justify-content: flex-start;
-  width:100vw;
+  width: 100vw;
   align-items: flex-start;
+  /* overflow: hidden; */
+}
+
+.body {
+  list-style-type: disc;
+  margin: 10px 0px 180px 20px;
+  width: 800px;
   overflow-y: scroll;
-  //overflow: hidden;
 }
 
-.body ul{
-    list-style-type: disc;
-    margin: 0px 0px 180px 0px;
+.body li {
+  margin: 10px 0px 10px 26px;
 }
 
-.body li{
-    margin: 10px 0px 10px 26px;
+.body a {
+  color: #020413;
+  border-bottom: 1px solid #020413;
 }
 
-.body a{
-    color:#020413;
-    border-bottom: 1px solid #020413;
+.articleTitle {
+  font-family: helvetica;
+  color: #020413;
+  font-size: 28px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0px 0px 24px 0px;
+}
+
+
+.imageContainer {
+}
+
+.titleContainer {
+}
+
+.title {
+}
+
+.subtitle {
+}
+
+.body {
 }

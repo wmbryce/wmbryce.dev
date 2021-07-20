@@ -29,7 +29,8 @@ export default function Menu() {
   const router = useRouter()
   const [open, setOpen] = useState(false)
 
-  const items = ['about', 'bookshelf', 'musings', 'work'];
+  // const items = ['about', 'bookshelf', 'musings', 'work'];
+  const items = ['about', 'bookshelf', 'work'];
 
   useEffect(() => {
     setTimeout(() => {
