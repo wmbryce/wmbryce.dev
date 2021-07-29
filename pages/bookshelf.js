@@ -8,11 +8,6 @@ import markdownToHtml from '../lib/markdownToHtml';
 import fs from 'fs';
 import matter from 'gray-matter';
 
-const booklist = [
-  {title: 'Robinson Crusoe', link: 'https://www.amazon.com/'},
-  {title: 'Swiss family robinson', link: 'https://www.reddit.com/'},
-];
-
 export default function Bookshelf(props) {
   useEffect(() => {
     console.log('Hello');
@@ -37,7 +32,7 @@ export default function Bookshelf(props) {
 }
 
 export async function getStaticProps({params}) {
-  const fileContents = fs.readFileSync('./content/bookshelf/booklist.md');
+  const fileContents = fs.readFileSync('./content/booklist.md');
   const {data, content} = matter(fileContents);
   const booklist = await markdownToHtml(content);
 
