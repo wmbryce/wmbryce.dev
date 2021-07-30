@@ -11,7 +11,7 @@ export default function Bookshelf(props) {
     console.log('Hello');
   }, []);
 
-  console.log('result from bookshelf:', props.booklist);
+  // console.log('result from bookshelf:', props.booklist);
 
   return (
     <div className={styles.container}>
