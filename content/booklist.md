@@ -1,5 +1,6 @@
 Quantity has a quality all of its own. - Joseph Stalin
 
+- [Neuromancer]()
 - [The Ascent of Money](https://www.amazon.com/Ascent-Money-Financial-History-World/dp/0143116177/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1625077436&sr=8-1)
 - [On The Shortness of Life](https://www.amazon.com/Shortness-Life-Penguin-Great-Ideas/dp/0143036327/ref=sr_1_1?dchild=1&keywords=On+the+shortness+of+life&qid=1625150668&sr=8-1)
 - [The Wind-up Bird Chronicle](https://www.amazon.com/Wind-Up-Bird-Chronicle-Novel/dp/0679775439/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1625077590&sr=8-1)
@@ -10,7 +11,7 @@ Quantity has a quality all of its own. - Joseph Stalin
 - [Endymion](https://www.amazon.com/Endymion-Gollancz-S-F-Dan-Simmons/dp/0575076399/ref=pd_bxgy_img_2/132-0431303-1076750?pd_rd_w=3Qr4Q&pf_rd_p=fd3ebcd0-c1a2-44cf-aba2-bbf4810b3732&pf_rd_r=33CHKN433XJ30GXDX835&pd_rd_r=090695b5-d490-4ad7-9bde-a028dcf91a4f&pd_rd_wg=gbB1Z&pd_rd_i=0575076399&psc=1)
 - [The Rise of Endymion](https://www.amazon.com/Rise-Endymion-Dan-Simmons/dp/0575076402/ref=pd_bxgy_img_1/132-0431303-1076750?pd_rd_w=kmgfQ&pf_rd_p=fd3ebcd0-c1a2-44cf-aba2-bbf4810b3732&pf_rd_r=XMBNSKPS1X6N41X65ENR&pd_rd_r=69bfca84-5bbc-4919-8015-e9cd84eb5b29&pd_rd_wg=g6vdO&pd_rd_i=0575076402&psc=1)
 - [Catch 22](https://www.amazon.com/Catch-22-50th-Anniversary-Joseph-Heller/dp/1451626657/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1625150932&sr=1-1)
-- [The Three-Body Problem](https://www.amazon.com/Three-Body-Problem-Cixin-Liu/dp/0765382032/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1625150964&sr=1-1)
+- [The Three-Body Problem](https://www.amazon.com/The-Three-Body-Problem-audiobook/dp/B00P00QPPY/ref=sr_1_1?crid=FTUX00TPNW4D&dchild=1&keywords=the+three+body+problem&qid=1625150964&s=books&sprefix=The+three+bod%2Cstripbooks%2C200&sr=1-1)
 - [The Dark Forest](https://www.amazon.com/Dark-Forest-Remembrance-Earths-Past/dp/0765386690/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1625150990&sr=1-1)
 - [Death's End](https://www.amazon.com/Deaths-End-Three-Body-Problem-Cixin/dp/1784971650/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1625151009&sr=1-1)
 - [Guns Germs and Steel](https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393354326/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1625151035&sr=1-1)
