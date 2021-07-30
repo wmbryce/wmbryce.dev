@@ -1,6 +1,4 @@
-import {useEffect, useState} from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
+import {useEffect} from 'react';
 import styles from '../styles/about.module.css';
 import CirclesAndSquares from '../components/circlesAndSquares';
 import Menu from '../components/menu';

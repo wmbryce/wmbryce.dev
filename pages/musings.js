@@ -1,17 +1,9 @@
-import {useEffect, useState} from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
 import styles from '../styles/musings.module.css';
 import CirclesAndSquares from '../components/circlesAndSquares';
 import Menu from '../components/menu';
-import markdownToHtml from '../lib/markdownToHtml';
 import MainPost from '../components/mainPost';
-import Intro from '../components/intro';
-import Layout from '../components/layout';
-import MoreStories from '../components/moreStories';
 //import fs from 'fs';
 import {getAllPosts} from '../lib/api';
-import matter from 'gray-matter';
 
 export default function Musings({allPosts}) {
   const mainPost = allPosts[0];
