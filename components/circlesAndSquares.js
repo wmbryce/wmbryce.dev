@@ -60,7 +60,6 @@ export default function CirclesAndSquares(props) {
   `;
 
   const BlueSquare = styled.div`
-    position: absolute;
     height: ${squareSize}px;
     width: ${squareSize}px;
     transform: rotate(45deg);
