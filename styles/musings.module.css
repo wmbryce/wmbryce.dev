@@ -13,7 +13,7 @@
 }
 
 .title {
-  font-family: helvetica;
+  font-family: Inter;
   color: #020413;
   font-size: 36px;
   text-decoration: none;
@@ -62,14 +62,13 @@
 }
 
 .articleTitle {
-  font-family: helvetica;
+  font-family: Inter;
   color: #020413;
   font-size: 28px;
   text-decoration: none;
   cursor: pointer;
   margin: 0px 0px 24px 0px;
 }
-
 
 .imageContainer {
 }

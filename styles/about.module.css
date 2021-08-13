@@ -6,36 +6,34 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #D0D2D4;
+  background-color: #d0d2d4;
   overflow-x: hidden;
   overflow-y: scroll;
-  padding-bottom:10px
+  padding-bottom: 10px;
 }
 
 .title {
-  font-family: helvetica;
+  font-family: Inter;
   color: #020413;
-  font-size:36px;
+  font-size: 36px;
   text-decoration: none;
   cursor: pointer;
   margin: 0px 0px 12px 0px;
 }
 
 .illustration {
-    postion: absolute;
-    right: 0px;
-    zIndex: 0;
+  postion: absolute;
+  right: 0px;
+  zindex: 0;
 }
 
 .mainContainer {
   flex: 1;
   display: flex;
   flex-direction: row;
-  width:100vw;
-  height:100vh;
-  //overflow-y: scroll;
-  //overflow: hidden;
-
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .main {
@@ -44,24 +42,21 @@
   flex-direction: column;
   margin: 90px 0px 0px 40px;
   justify-content: flex-start;
-  width:100vw;
+  width: 100vw;
   align-items: flex-start;
-  //overflow: hidden;
 }
 
-
-.body{
-    list-style-type: disc;
-    margin: 10px 0px 180px 20px;
-    width:800px;
-    overflow-y: scroll;
+.body {
+  list-style-type: disc;
+  margin: 10px 0px 180px 20px;
+  width: 800px;
 }
 
-.body li{
-    margin: 10px 0px 10px 26px;
+.body li {
+  margin: 10px 0px 10px 26px;
 }
 
-.body a{
-    color:#020413;
-    border-bottom: 1px solid #020413;
+.body a {
+  color: #020413;
+  border-bottom: 1px solid #020413;
 }
