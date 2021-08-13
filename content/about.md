@@ -1,18 +1,15 @@
 Me.
 <br/>
 <br/>
-Ah yes. About me.
+I struggle to write about myself. I find it difficult to find the tone which stikes the balance between sarcasm, self deprecating humor, and subtle back handed compliments that I usually use to express myself.  
 <br/>
 <br/>
-Finding balance between pretentious self aggrandizement and humble brags is difficult for me.
+I born in and raised in the once sleeply little town of Austin Texas. I recently fled Texas for the more mountanous country of Colorado, specifically Denver.
 <br/>
 <br/>
-I'm an Austin Texas native, currently living in Denver.
-<br/>
-<br/>
-I'm currently the directory of engineering at PatchRx.
+I'm passionate about technology and using it to make the world a better place. In order to accomplish that I direct engineering at a small healthcare start up called PatchRx.
 <br/><br/>
-So far working at PatchRx I have built the a Mobile app and a Web app from scratch. I have also built out the cloud infrastructure for both products using a combination of API gateway, AWS Lambda, DynamoDB, AuoraDB, AWS Cognito. I love coding right now I perfer to use React/React Native as my brush, with some ES6 and some Typescript. I'm also proficent with python and Scala.
+At Patch, I work to help implement and design techological solutions to help increase medication adherence. Medication adherence is a fancy term which refers to how accurately people follow their prescribed medication routine. With Patch, I developed a Mobile and Web application completely from scratch. I also architected the supporting cloud infrastructure for both products using a combination of API gateway, AWS Lambda, DynamoDB, AuoraDB, AWS Cognito & Amplify.
 <br/>
 <br/>
 When I'm not working I enjoy<br/>
@@ -20,8 +17,8 @@ baking bread,<br/>
 cooking risotto,<br/>
 reading big books,<br/>
 climbing big rocks,<br/>
-and playing music (guitar & piano).<br/>
+and making music (guitar & piano).<br/>
 <br/>
 <br/>
-I'm passionate about programming and making the world a better place.
 If you really want to get me going ask me about my emacs configuration.
+<br/>
