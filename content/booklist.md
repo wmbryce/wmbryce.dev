@@ -1,9 +1,10 @@
-Quantity has a quality all of its own. - Joseph Stalin
+My greatest weakness is buying too many books. This is list of the books that I have mostly finished. I hope that you will enjoy them as much as I have.
 
 - [The Ascent of Money](https://www.amazon.com/Ascent-Money-Financial-History-World/dp/0143116177/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1625077436&sr=8-1)
 - [On The Shortness of Life](https://www.amazon.com/Shortness-Life-Penguin-Great-Ideas/dp/0143036327/ref=sr_1_1?dchild=1&keywords=On+the+shortness+of+life&qid=1625150668&sr=8-1)
 - [The Wind-up Bird Chronicle](https://www.amazon.com/Wind-Up-Bird-Chronicle-Novel/dp/0679775439/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1625077590&sr=8-1)
 - [The Dispossessed](https://www.amazon.com/Dispossessed-Ursula-K-Guin/dp/1857988825/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1625150756&sr=8-1)
+- [The Psychology of Money](https://www.amazon.com/Psychology-Money-Timeless-lessons-happiness/dp/0857197681)
 - [Atlas Shrugged](https://www.amazon.com/Atlas-Shrugged-Centennial-AYN-RAND/dp/B0027M0HV6/ref=sr_1_7?crid=L0LUEROAS8RJ&dchild=1&keywords=atlas+shrugged&qid=1625150797&sprefix=Atlas+strugged%2Caps%2C187&sr=8-7)
 - [The Rise of Endymion](https://www.amazon.com/Rise-Endymion-Dan-Simmons/dp/0575076402/ref=pd_bxgy_img_1/132-0431303-1076750?pd_rd_w=kmgfQ&pf_rd_p=fd3ebcd0-c1a2-44cf-aba2-bbf4810b3732&pf_rd_r=XMBNSKPS1X6N41X65ENR&pd_rd_r=69bfca84-5bbc-4919-8015-e9cd84eb5b29&pd_rd_wg=g6vdO&pd_rd_i=0575076402&psc=1)
 - [Catch 22](https://www.amazon.com/Catch-22-50th-Anniversary-Joseph-Heller/dp/1451626657/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1625150932&sr=1-1)
@@ -81,4 +82,5 @@ Quantity has a quality all of its own. - Joseph Stalin
 - [The Information](https://www.amazon.com/Information-History-Theory-Flood/dp/1400096235/ref=sr_1_1?keywords=The+information&qid=1627661926&s=books&sr=1-1)
 - [The Discoverers](https://www.amazon.com/Discoverers-Daniel-J-Boorstin-1985-02-12/dp/B01FGKT2R0/ref=sr_1_2?dchild=1&keywords=The+discoverers&qid=1627661943&s=books&sr=1-2)
 - [Digital Gold](https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X/ref=sr_1_1?keywords=Digital+gold&qid=1627661975&s=books&sr=1-1)
-- [The Effective Engineer](https://www.amazon.com/Effective-Engineer-Engineering-Disproportionate-Meaningful/dp/0996128107/ref=sr_1_1?crid=2C6CXJ149LPC2&dchild=1&keywords=the+effective+engineer&qid=1627661996&s=books&sprefix=The+effective+engine%2Cstripbooks%2C180&sr=1-1) -[East of Eden](https://www.amazon.com/East-Eden-John-Steinbeck-Centennial/dp/0142004235/ref=sr_1_1?keywords=east+of+eden&qid=1627662039&s=books&sr=1-1)
+- [The Effective Engineer](https://www.amazon.com/Effective-Engineer-Engineering-Disproportionate-Meaningful/dp/0996128107/ref=sr_1_1?crid=2C6CXJ149LPC2&dchild=1&keywords=the+effective+engineer&qid=1627661996&s=books&sprefix=The+effective+engine%2Cstripbooks%2C180&sr=1-1)
+- [East of Eden](https://www.amazon.com/East-Eden-John-Steinbeck-Centennial/dp/0142004235/ref=sr_1_1?keywords=east+of+eden&qid=1627662039&s=books&sr=1-1)
