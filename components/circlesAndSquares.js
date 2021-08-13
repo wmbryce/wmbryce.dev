@@ -39,6 +39,7 @@ export default function CirclesAndSquares(props) {
     background-color: #ee281b;
     transform: translateX(${translation}px) translateY(${translation}px);
     mix-blend-mode: darken;
+    z-index: 5;
   `;
 
   const BlackCircle = styled(animated.div)`
@@ -49,26 +50,24 @@ export default function CirclesAndSquares(props) {
     background-color: #d0d2d4;
     transform: translateX(-${translation}px) translateY(-${translation}px);
     mix-blend-mode: difference;
+    z-index: 5;
   `;
   const GreyCircle = styled.div`
     position: absolute;
     height: ${circleSize}px;
     width: ${circleSize}px;
     border-radius: 150px;
-    zindex: 1;
+    z-index: 1;
     background-color: #d0d2d4;
   `;
 
   const BlueSquare = styled.div`
+    position: absolute;
     height: ${squareSize}px;
     width: ${squareSize}px;
     transform: rotate(45deg);
     background-color: #02adde;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    zindex: 1;
-    margin: 0px 36px;
+    z-index: 1;
   `;
   const GreySquare = styled.div`
     height: ${spacerSize}px;
@@ -77,7 +76,6 @@ export default function CirclesAndSquares(props) {
     display: flex;
     align-items: center;
     justify-content: center;
-    zindex: 1;
   `;
 
   return (

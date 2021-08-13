@@ -1,24 +1,23 @@
-
 .row {
   display: flex;
   flex-direction: row;
-  align-items:center;
+  align-items: center;
   justify-content: flex-end;
-  background-color: #D0D2D4;
+  background-color: #d0d2d4;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   justify-content: flex-end;
-  background-color: #D0D2D4;
+  background-color: #d0d2d4;
 }
 
 .circleRowRed {
   display: flex;
   flex-direction: row;
-  align-items:center;
+  align-items: center;
   justify-content: flex-end;
   transform: translateX(74px) translateY(-90px);
   mix-blend-mode: darken;
@@ -27,18 +26,18 @@
 .circleRowBlack {
   display: flex;
   flex-direction: row;
-  align-items:center;
+  align-items: center;
   justify-content: flex-end;
 }
 .containerSquare {
   height: 248px;
   width: 248px;
-  background-color: #FFFFFF;
-  border: 1px solid #02ADDE;
+  background-color: #ffffff;
+  border: 1px solid #02adde;
   transform: rotate(-45deg);
-  position:absolute;
+  position: absolute;
   display: flex;
-  zIndex:1;
+  z-index: 1;
   align-items: center;
   justify-content: center;
 }
@@ -46,22 +45,22 @@
 .greySquare {
   height: 248px;
   width: 248px;
-  background-color: #D0D2D4;
+  background-color: #d0d2d4;
   display: flex;
   align-items: center;
   justify-content: center;
-  zIndex:1;
+  /* z-index: 1; */
 }
 
 .blueSquare {
   height: 125px;
   width: 125px;
   transform: rotate(45deg);
-  background-color: #02ADDE;
+  background-color: #02adde;
   display: flex;
   align-items: center;
   justify-content: center;
-  zIndex:1;
+  /* z-index: 1; */
   margin: 0px 36px;
 }
 
@@ -70,17 +69,16 @@
   height: 100px;
   width: 100px;
   border-radius: 150px;
-  zIndex:1;
-  background-color: #D0D2D4;
+  /* z-index: 1; */
+  background-color: #d0d2d4;
 }
-
 
 .redCircle {
   position: absolute;
   height: 100px;
   width: 100px;
   border-radius: 150px;
-  background-color: #EE281B;
+  background-color: #ee281b;
   transform: translateX(60px) translateY(60px);
   mix-blend-mode: darken;
 }
@@ -90,7 +88,7 @@
   height: 100px;
   width: 100px;
   border-radius: 150px;
-  background-color: #D0D2D4;
+  background-color: #d0d2d4;
   transform: translateX(-70px) translateY(-70px);
   mix-blend-mode: difference;
 }
