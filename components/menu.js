@@ -37,10 +37,13 @@ export default function Menu() {
   }, []);
 
   const navigate = (path) => {
-    setOpen(false);
-    setTimeout(() => {
-      router.push(path);
-    }, 400);
+    console.log('Current path:', router.pathname, 'New path name:', path);
+    if (path !== router.pathname) {
+      setOpen(false);
+      setTimeout(() => {
+        router.push(path);
+      }, 400);
+    }
   };
 
   return (
