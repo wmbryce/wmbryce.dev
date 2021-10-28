@@ -6,10 +6,10 @@ import {useSpring, animated} from 'react-spring';
 export default function CirclesAndSquares(props) {
   const {hideBlackCircle, column} = props;
   const [accend, setAccend] = useState(true);
-  const [translation, setTranslation] = useState(76);
-  const [circleSize, setCircleSize] = useState(150);
-  const [squareSize, setSquareSize] = useState(175);
-  const [spacerSize, setSpacerSize] = useState(248);
+  const [translation, setTranslation] = useState(40);
+  const [circleSize, setCircleSize] = useState(8); //150);
+  const [squareSize, setSquareSize] = useState(10);
+  const [spacerSize, setSpacerSize] = useState(14);
   const [offset, setOffset] = useState(16);
 
   const styles1 = useSpring({
@@ -33,29 +33,29 @@ export default function CirclesAndSquares(props) {
 
   const RedCircle = styled(animated.div)`
     position: absolute;
-    height: ${circleSize}px;
-    width: ${circleSize}px;
+    height: ${circleSize}vw;
+    width: ${circleSize}vw;
     border-radius: 150px;
     background-color: #ee281b;
-    transform: translateX(${translation}px) translateY(${translation}px);
+    transform: translateX(${translation}vw) translateY(${translation}vw);
     mix-blend-mode: darken;
     z-index: 5;
   `;
 
   const BlackCircle = styled(animated.div)`
     position: absolute;
-    height: ${circleSize}px;
-    width: ${circleSize}px;
+    height: ${circleSize}vw;
+    width: ${circleSize}vw;
     border-radius: 150px;
     background-color: #d0d2d4;
-    transform: translateX(-${translation}px) translateY(-${translation}px);
+    transform: translateX(-${translation}vw) translateY(-${translation}vw);
     mix-blend-mode: difference;
     z-index: 5;
   `;
   const GreyCircle = styled.div`
     position: absolute;
-    height: ${circleSize}px;
-    width: ${circleSize}px;
+    height: ${circleSize}vw;
+    width: ${circleSize}vw;
     border-radius: 150px;
     z-index: 1;
     background-color: #d0d2d4;
@@ -63,15 +63,15 @@ export default function CirclesAndSquares(props) {
 
   const BlueSquare = styled.div`
     position: absolute;
-    height: ${squareSize}px;
-    width: ${squareSize}px;
+    height: ${squareSize}vw;
+    width: ${squareSize}vw;
     transform: rotate(45deg);
     background-color: #02adde;
     z-index: 1;
   `;
   const GreySquare = styled.div`
-    height: ${spacerSize}px;
-    width: ${spacerSize}px;
+    height: ${spacerSize}vw;
+    width: ${spacerSize}vw;
     background-color: #d0d2d4;
     display: flex;
     align-items: center;
