@@ -2,7 +2,7 @@ My greatest weakness is buying too many books. This is list of the books that I 
 
 - [Pachinko](https://www.amazon.com/Pachinko-National-Book-Award-Finalist/dp/1455563927/ref=sr_1_1?dchild=1&keywords=pachinko&qid=1635433399&sr=8-1)
 - [Foundation](https://www.amazon.com/Foundation-Isaac-Asimov/dp/0553293354/ref=sr_1_1?crid=2QSPM3Y7XSYGS&dchild=1&keywords=asimov+foundation+series&qid=1635433449&sprefix=asimov%2Caps%2C259&sr=8-1)
-- [Pacific](https://www.amazon.com/Foundation-Isaac-Asimov/dp/0553293354/ref=sr_1_1?crid=2QSPM3Y7XSYGS&dchild=1&keywords=asimov+foundation+series&qid=1635433449&sprefix=asimov%2Caps%2C259&sr=8-1)
+- [Pacific](https://www.amazon.com/Pacific-Surfboards-Dictators-Collision-Superpowers/dp/0062421638/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1635520799&sr=8-1)
 - [The Ascent of Money](https://www.amazon.com/Ascent-Money-Financial-History-World/dp/0143116177/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1625077436&sr=8-1)
 - [On The Shortness of Life](https://www.amazon.com/Shortness-Life-Penguin-Great-Ideas/dp/0143036327/ref=sr_1_1?dchild=1&keywords=On+the+shortness+of+life&qid=1625150668&sr=8-1)
 - [The Wind-up Bird Chronicle](https://www.amazon.com/Wind-Up-Bird-Chronicle-Novel/dp/0679775439/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1625077590&sr=8-1)
