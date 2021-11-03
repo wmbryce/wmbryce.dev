@@ -1,7 +1,6 @@
 import {useEffect} from 'react';
 import styles from '../styles/about.module.css';
-import CirclesAndSquares from '../components/circlesAndSquares';
-import Menu from '../components/menu';
+import PageLayout from '../components/pageLayout';
 import markdownToHtml from '../lib/markdownToHtml';
 import fs from 'fs';
 import matter from 'gray-matter';
@@ -14,18 +13,10 @@ export default function About(props) {
   console.log('result from bookshelf:', props.booklist);
 
   return (
-    <div className={styles.container}>
-      <Menu />
-      <div className={styles.mainContainer}>
-        <div className={styles.illustration}>
-          <CirclesAndSquares column={true} />
-        </div>
-        <div className={styles.main}>
-          <h1 className={styles.title}>about</h1>
-          <div className={styles.body} dangerouslySetInnerHTML={{__html: props.about}} />
-        </div>
-      </div>
-    </div>
+    <PageLayout>
+      <h1 className={styles.title}>about</h1>
+      <div className={styles.body} dangerouslySetInnerHTML={{__html: props.about}} />
+    </PageLayout>
   );
 }
 
