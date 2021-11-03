@@ -1,10 +1,9 @@
 import {useEffect} from 'react';
 import styles from '../styles/bookshelf.module.css';
-import CirclesAndSquares from '../components/circlesAndSquares';
-import Menu from '../components/menu';
 import markdownToHtml from '../lib/markdownToHtml';
 import fs from 'fs';
 import matter from 'gray-matter';
+import PageLayout from '../components/pageLayout';
 
 export default function Bookshelf(props) {
   useEffect(() => {
@@ -14,18 +13,10 @@ export default function Bookshelf(props) {
   // console.log('result from bookshelf:', props.booklist);
 
   return (
-    <div className={styles.container}>
-      <Menu />
-      <div className={styles.mainContainer}>
-        <div className={styles.illustration}>
-          <CirclesAndSquares column={true} />
-        </div>
-        <div className={styles.main}>
-          <h1 className={styles.title}>bookshelf</h1>
-          <div className={styles.body} dangerouslySetInnerHTML={{__html: props.booklist}} />
-        </div>
-      </div>
-    </div>
+    <PageLayout>
+      <h1 className={styles.title}>bookshelf</h1>
+      <div className={styles.body} dangerouslySetInnerHTML={{__html: props.booklist}} />
+    </PageLayout>
   );
 }
 
