@@ -42,7 +42,7 @@ export default function Menu() {
       setOpen(false);
       setTimeout(() => {
         router.push(path);
-      }, 400);
+      }, 200);
     }
   };
 
