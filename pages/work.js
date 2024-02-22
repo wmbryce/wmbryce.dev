@@ -18,24 +18,64 @@ export default function Work(props) {
         <div className={styles.sectionList}>
           <div className={styles.sectionBody}>
             <h1>
+              <span>TIFIN AMP</span> / Director of Frontend Engineering
+            </h1>
+            <em>Feb 2023-Present</em>
+            <ul>
+              <li>Designed, and implemented new product features, enhancing user experience and market competitiveness</li>
+              <li>
+                Orchestrated development cycles and project management for a team of six engineers, optimizing productivity and delivery timelines
+              </li>
+              <li>
+                Developed new Salesforce managed package, greatly improving client interaction by delivering a tailored experience within their CRM
+              </li>
+            </ul>
+          </div>
+          <div className={styles.sectionBody}>
+            <h1>
+              <span>TIFIN</span> / Software Engineer
+            </h1>
+            <em>Jan 2022-Feb 2023</em>
+            <ul>
+              <li>Collaborated closely with design team to bring a powerful and elegant user experience to the TIFIN AMP product</li>
+              <li>
+                Engineered custom deployment pipelines, streamlining app deployment processes, and implemented end-to-end automated testing for
+                production environment, bolstering operational efficiency
+              </li>
+              <li>Improved product quality and scalability by refactoring codebase to leverage Typescript and auto-generated types</li>
+            </ul>
+          </div>
+          <div className={styles.sectionBody}>
+            <h1>
               <span>PatchRx</span> / Director of Engineering
             </h1>
-            <em>May 2021-Present</em>
-            <p>Recruited new engineering talent, managed developer teams, </p>
+            <em>May 2021-Jan 2022</em>
+            <ul>
+              <li>Led migration of codebase from Javascript to Typescript</li>
+              <li>Coordinated redesign of backend infrastructure to use PostgreSQL and GraphQL</li>
+              <li>Managed development teams for both the Mobile and Web applications</li>
+              <li> Interviewed and onboarded new engineers and interns</li>
+            </ul>
           </div>
           <div className={styles.sectionBody}>
             <h1>
               <span>PatchRx</span> / Project Manager and Software Architect
             </h1>
             <em>June 2020-May 2021</em>
-            <p>Designed and implemented cloud infrastructure for web and mobile applications, and managed team of five developers.</p>
+            <ul>
+              <li>Built MVP of PatchRx Web application using React and Next.js</li>
+              <li>Managed team of up to six developers</li>
+            </ul>
           </div>
           <div className={styles.sectionBody}>
             <h1>
               <span>PatchRx</span> / Full Stack Engineer
             </h1>
             <em>May 2019-June 2020</em>
-            <p>Developed MVP of mobile app using React Native, AWS Amplify, Serverless, and DynamoDB</p>
+            <ul>
+              <li>Built MVP of the PatchRx mobile app using React Native</li>
+              <li>Designed and implemented backend RESTAPIs using DynamoDB, API Gateway, and AWS Lambda</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -109,10 +149,9 @@ export default function Work(props) {
         </div>
         <div className={styles.sectionList}>
           <div className={styles.sectionBodyContact}>
-            <p> 512.971.4212 </p>
-            <p> michael@wmbryce.dev </p>
-            <p> linkedin.com/in/michaelbryce </p>
-            <p> github.com/wmbryce </p>
+            <a href={'mailto:michael@wmbryce.dev'}> michael@wmbryce.dev </a>
+            <a href={'https://www.linkedin.com/in/wmbryce/'}> linkedin.com/in/wmbryce </a>
+            <a href={'https://github.com/wmbryce'}> github.com/wmbryce </a>
           </div>
         </div>
       </div>

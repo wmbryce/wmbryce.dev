@@ -91,6 +91,7 @@
   font-weight: normal;
   color: #020413;
   font-size: 18px;
+  margin: ;
 }
 
 .sectionBody h1 span {
@@ -102,6 +103,17 @@
   color: #020413;
   font-size: 14px;
   margin: 8px 0px 16px 0px;
+}
+
+.sectionBody ul {
+  font-family: Inter;
+  color: #020413;
+  font-size: 14px;
+  margin: 8px 0px 16px 18px;
+}
+
+.sectionBody li {
+  margin: 2px 0px;
 }
 
 .sectionBody p span {
@@ -116,9 +128,11 @@
   margin: 12px 0px 0px 0px;
 }
 
-.sectionBodyContact p {
+.sectionBodyContact a {
   font-family: Inter;
   color: #020413;
   font-size: 14px;
   margin: 0px 0px 4px 0px;
+  /* text-decoration: underline; */
+  display: flex;
 }
