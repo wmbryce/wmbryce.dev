@@ -21,7 +21,6 @@ export default function About(props) {
 }
 
 export async function getStaticProps({params}) {
-  const fileContents = fs.readFileSync('./content/about.md');
   const {data, content} = matter(fileContents);
   const about = await markdownToHtml(content);
 

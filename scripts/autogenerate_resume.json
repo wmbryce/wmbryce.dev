@@ -1,0 +1,5 @@
+{
+  "watch": ["content/*.html", "content/*.css", "scripts/generate_resume.mjs"],
+  "exec": "node scripts/generate_resume.mjs",
+  "ext": "mjs,html,css"
+}
