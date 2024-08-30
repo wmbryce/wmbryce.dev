@@ -2,6 +2,7 @@ import {useState} from 'react';
 import styles from '../styles/circleAndSquares.module.css';
 import styled from '@emotion/styled';
 import {useSpring, animated} from 'react-spring';
+import {jsx, css} from '@emotion/react';
 
 export default function CirclesAndSquares(props) {
   const {hideBlackCircle, column} = props;

@@ -6,12 +6,6 @@ import matter from 'gray-matter';
 import PageLayout from '../components/pageLayout';
 
 export default function Bookshelf(props) {
-  useEffect(() => {
-    console.log('Hello');
-  }, []);
-
-  // console.log('result from bookshelf:', props.booklist);
-
   return (
     <PageLayout>
       <h1 className={styles.title}>bookshelf</h1>

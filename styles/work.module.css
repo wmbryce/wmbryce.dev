@@ -1,57 +1,64 @@
-.title {
-  font-family: Inter;
-  color: #020413;
-  font-size: 36px;
-  text-decoration: none;
-  cursor: pointer;
-  margin: 0px 0px 12px 0px;
-}
-.illustration {
-  /* position: absolute; */
-  right: 0px;
-  /* z-index: 0; */
-}
-
-.mainContainer {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  width: 100vw;
-  height: 100vh;
-  /* overflow-x: hidden; */
-  /* overflow-y: scroll; */
-}
-
 .main {
-  flex: 1;
   display: flex;
   flex-direction: column;
-  margin: 90px 0px 0px 40px;
-  justify-content: flex-start;
-  width: 60vw;
-  z-index: 10;
-  align-items: flex-start;
-}
-.section {
-  display: flex;
-  flex-direction: row;
-  width: 100vw;
+  height: 1056px;
+  width: 816px;
+  padding: 2rem 3rem 2rem 2rem;
 }
 
-.sectionLabel {
-  width: 260px;
+.a {
+  font-family: Inter;
+  color: #020413;
+}
+
+.sectionBodyContact {
+  font-family: Inter;
+  color: #020413;
+  font-size: 14px;
+  margin: 0px 0px 12px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
   font-family: Inter;
   color: #020413;
   font-size: 28px;
   text-decoration: none;
-  margin: 0px 0px 12px 0px;
+  cursor: pointer;
+  margin: 0px 0px 4px 0px;
 }
-.sectionLabel h1 {
+
+.section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.sectionLabel {
+  width: 200px;
+  font-family: Inter;
+  color: #020413;
+  font-size: 28px;
+  text-decoration: none;
+  margin: 0px 0px 0px 0px;
+}
+
+.sectionLabel a {
+  font-size: 10px;
+  height: 12px;
+  display: block;
+  margin: 0px 0px;
+  padding: 2px 0px;
+  text-decoration: none;
+}
+
+.sectionLabel h2 {
   font-family: Inter;
   color: #020413;
   font-size: 24px;
   text-decoration: none;
-  margin: 0px 0px 12px 0px;
+  margin: 10px 0px 12px 0px;
 }
 .sectionLabel div {
   width: 24px;
@@ -65,56 +72,55 @@
   margin: 8px 0px 0px 0px;
   padding: 16px 0px 0px 0px;
   border-top: 3px #020413 solid;
-  width: 700px;
+  width: 680px;
 }
 
-.sectionBody h1 {
+.article h3 {
   font-family: Inter;
   font-weight: normal;
   color: #020413;
-  font-size: 18px;
-  /* margin: ; */
+  font-size: 14px;
+  margin: 0px 0px;
 }
 
-.sectionBody h1 span {
+.article h3 span {
   font-weight: bold;
 }
 
 .sectionBody p {
   font-family: Inter;
   color: #020413;
-  font-size: 14px;
-  margin: 8px 0px 16px 0px;
+  font-size: 12px;
+  margin: 8px 0px 8px 0px;
 }
 
 .sectionBody ul {
   font-family: Inter;
   color: #020413;
-  font-size: 14px;
+  font-size: 12px;
+  list-style-type: circle;
+  list-style-position: outside;
   margin: 8px 0px 16px 18px;
 }
 
+.sectionBody div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .sectionBody li {
-  margin: 2px 0px;
+  margin: 3px 0px;
 }
 
 .sectionBody p span {
   font-weight: bold;
 }
 
-.sectionBody em {
+.article em {
   font-family: Inter;
   font-weight: 300;
   color: #020413;
-  font-size: 14px;
-  margin: 12px 0px 0px 0px;
-}
-
-.sectionBodyContact a {
-  font-family: Inter;
-  color: #020413;
-  font-size: 14px;
-  margin: 0px 0px 4px 0px;
-  text-decoration: underline;
-  display: flex;
+  font-size: 12px;
+  margin: 0px 0px 0px 0px;
 }
