@@ -36,4 +36,5 @@
   width: 60vw;
   z-index: 10;
   align-items: flex-start;
+  overflow-y: scroll;
 }

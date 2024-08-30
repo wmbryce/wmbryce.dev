@@ -4,6 +4,12 @@
   height: 1056px;
   width: 816px;
   padding: 2rem 3rem 2rem 2rem;
+  overflow-y: scroll;
+}
+
+.scrollContainer {
+  overflow-y: scroll;
+  padding-bottom: 80px;
 }
 
 .a {

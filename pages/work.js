@@ -8,7 +8,7 @@ import {jsx} from '@emotion/react';
 export default function Work(props) {
   return (
     <PageLayout>
-      <main>
+      <div className={styles.scrollContainer}>
         <section className={styles.section}>
           <div className={styles.sectionLabel}>
             <div></div>
@@ -170,7 +170,7 @@ export default function Work(props) {
             </div>
           </div>
         </section>
-      </main>
+      </div>
     </PageLayout>
   );
 }
