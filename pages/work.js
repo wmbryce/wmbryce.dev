@@ -1,159 +1,175 @@
 import styles from '../styles/work.module.css';
-import CirclesAndSquares from '../components/circlesAndSquares';
-import Menu from '../components/menu';
 import markdownToHtml from '../lib/markdownToHtml';
 import fs from 'fs';
 import matter from 'gray-matter';
 import PageLayout from '../components/pageLayout';
+import {jsx} from '@emotion/react';
 
 export default function Work(props) {
   return (
     <PageLayout>
-      <h1 className={styles.title}>work</h1>
-      <div className={styles.section}>
-        <div className={styles.sectionLabel}>
-          <div />
-          <h1>Experience</h1>
-        </div>
-        <div className={styles.sectionList}>
-          <div className={styles.sectionBody}>
-            <h1>
-              <span>TIFIN AMP</span> / Director of Frontend Engineering
-            </h1>
-            <em>Feb 2023-Present</em>
-            <ul>
-              <li>Designed, and implemented new product features, enhancing user experience and market competitiveness</li>
-              <li>
-                Orchestrated development cycles and project management for a team of six engineers, optimizing productivity and delivery timelines
-              </li>
-              <li>
-                Developed new Salesforce managed package, greatly improving client interaction by delivering a tailored experience within their CRM
-              </li>
-            </ul>
+      <div className={styles.scrollContainer}>
+        <section className={styles.section}>
+          <div className={styles.sectionLabel}>
+            <div></div>
+            <h1 className={styles.title}>Michael Bryce</h1>
+            <a href="mailto:michael@wmbryce.dev">michael@wmbryce.dev</a>
+            <a href="https://www.linkedin.com/in/wmbryce/">linkedin.com/in/wmbryce</a>
+            <a href="https://github.com/wmbryce">github.com/wmbryce</a>
           </div>
-          <div className={styles.sectionBody}>
-            <h1>
-              <span>TIFIN</span> / Software Engineer
-            </h1>
-            <em>Jan 2022-Feb 2023</em>
-            <ul>
-              <li>Collaborated closely with design team to bring a powerful and elegant user experience to the TIFIN AMP product</li>
-              <li>
-                Engineered custom deployment pipelines, streamlining app deployment processes, and implemented end-to-end automated testing for
-                production environment, bolstering operational efficiency
-              </li>
-              <li>Improved product quality and scalability by refactoring codebase to leverage Typescript and auto-generated types</li>
-            </ul>
+        </section>
+        <section className={styles.section}>
+          <div className={styles.sectionLabel}>
+            <div></div>
+            <h2>Experience</h2>
           </div>
-          <div className={styles.sectionBody}>
-            <h1>
-              <span>PatchRx</span> / Director of Engineering
-            </h1>
-            <em>May 2021-Jan 2022</em>
-            <ul>
-              <li>Led migration of codebase from Javascript to Typescript</li>
-              <li>Coordinated redesign of backend infrastructure to use PostgreSQL and GraphQL</li>
-              <li>Managed development teams for both the Mobile and Web applications</li>
-              <li> Interviewed and onboarded new engineers and interns</li>
-            </ul>
+          <div className={styles.sectionList}>
+            <article className={styles.sectionBody}>
+              <div>
+                <h3>
+                  <span>TIFIN AMP</span> / Lead Frontend Engineer
+                </h3>
+                <em>Feb 2023-Present</em>
+              </div>
+              <ul>
+                <li>
+                  Designed and implemented a new component library using Storybook and Figma, standardizing product UI and improving code reuse across
+                  the AMP ecosystem
+                </li>
+                <li>
+                  Orchestrated development cycles for a team of eight engineers, optimizing productivity and consistently meeting project deadlines,
+                  resulting in 23% faster time-to-market
+                </li>
+                <li>
+                  Deployed a new managed package in Salesforce using APEX and React to deliver a custom AMP experience within client CRMs, increasing
+                  user engagement by over 400%
+                </li>
+              </ul>
+            </article>
+            <article className={styles.sectionBody}>
+              <div>
+                <h3>
+                  <span>TIFIN</span> / Senior Frontend Engineer
+                </h3>
+                <em>Jan 2022-Feb 2023</em>
+              </div>
+              <ul>
+                <li>
+                  Led frontend development of a new web application which empowered clients to orchestrate custom marketing campaigns and optimize
+                  their sales pipelines using AI, culminating in product launch to over ten clients
+                </li>
+                <li>
+                  Integrated automated end-to-end Cypress tests into application deployment pipeline, achieved over 80% test coverage and reduce
+                  critical production bugs by 68%
+                </li>
+                <li>
+                  Improved developer tooling by migrating codebase to Typescript, autogenerating GraphQL types, and utilizing Tailwind CSS to speed up
+                  development time by 30% while improving code quality and reducing type-related bugs
+                </li>
+              </ul>
+            </article>
+            <article className={styles.sectionBody}>
+              <div>
+                <h3>
+                  <span>PatchRx</span> / Senior Full Stack Engineer & Product Manager
+                </h3>
+                <em>June 2020-Jan 2022</em>
+              </div>
+              <ul>
+                <li>
+                  Spearheaded the development of PatchRx Web application MVP using React and Next.js, resulting in a successful pilot launch to three
+                  pharmacies
+                </li>
+                <li>
+                  Scaled development team capacity by 100% through strategic hiring and onboarding of 4 new engineers and interns, conducting over 16
+                  technical interviews
+                </li>
+                <li>
+                  Architected and implemented backend infrastructure redesign, integrating PostgreSQL and GraphQL, which reduced query response time
+                  by 30% and decreased cloud administration costs by 20%
+                </li>
+              </ul>
+            </article>
+            <article className={styles.sectionBody}>
+              <div>
+                <h3>
+                  <span>PatchRx</span> / Full Stack Engineer
+                </h3>
+                <em>May 2019-June 2020</em>
+              </div>
+              <ul>
+                <li>
+                  Engineered consumer-facing mobile app with features such as BLE communication and custom push notifications using React Native and
+                  deployed MVP to both Android and iOS app stores for pilot launch of the app to over 100 users
+                </li>
+                <li>Designed and deployed high-performance RESTful API Backend using AWS serverless technologies (Lambda, API Gateway, DynamoDB)</li>
+              </ul>
+            </article>
           </div>
-          <div className={styles.sectionBody}>
-            <h1>
-              <span>PatchRx</span> / Project Manager and Software Architect
-            </h1>
-            <em>June 2020-May 2021</em>
-            <ul>
-              <li>Built MVP of PatchRx Web application using React and Next.js</li>
-              <li>Managed team of up to six developers</li>
-            </ul>
+        </section>
+        <section className={styles.section}>
+          <div className={styles.sectionLabel}>
+            <div></div>
+            <h2>Projects</h2>
           </div>
-          <div className={styles.sectionBody}>
-            <h1>
-              <span>PatchRx</span> / Full Stack Engineer
-            </h1>
-            <em>May 2019-June 2020</em>
-            <ul>
-              <li>Built MVP of the PatchRx mobile app using React Native</li>
-              <li>Designed and implemented backend RESTAPIs using DynamoDB, API Gateway, and AWS Lambda</li>
-            </ul>
+          <div className={styles.sectionList}>
+            <article className={styles.sectionBody}>
+              <h3>
+                <span>
+                  <a href="https://pixelfortune.dev">Pixel Fortune</a>
+                </span>{' '}
+                / Personal website
+              </h3>
+              <p>Designed and created text based fortune telling web app from scratch using React, Next.js, Cloudflare & Fleek</p>
+            </article>
+            <article className={styles.sectionBody}>
+              <h3>
+                <span>
+                  <a href="https://wmbryce.dev">WMBryce.dev</a>
+                </span>{' '}
+                / Personal website
+              </h3>
+              <p>Designed and built site from scratch using React, Next.js, Cloudflare & Fleek</p>
+            </article>
+            <article className={styles.sectionBody}>
+              <h3>
+                <span>Ethereum Node</span> / Blockchain Validating Server
+              </h3>
+              <p>Setup an Ubuntu server running Geth and Lighthouse to validate the Ethereum blockchain</p>
+            </article>
           </div>
-        </div>
-      </div>
-      <div className={styles.section}>
-        <div className={styles.sectionLabel}>
-          <div />
-          <h1>Projects</h1>
-        </div>
-        <div className={styles.sectionList}>
-          <div className={styles.sectionBody}>
-            <h1>
-              <span>WMBryce.dev</span> / Personal website
-            </h1>
-            <p>Designed and built site from scratch using React, Next.js, Cloudflare & Fleek</p>
+        </section>
+        <section className={styles.section}>
+          <div className={styles.sectionLabel}>
+            <div></div>
+            <h2>Education</h2>
           </div>
-          <div className={styles.sectionBody}>
-            <h1>
-              <span>Gratitude Journal</span> / Emacs extension
-            </h1>
-            <p>A simple extension to promote gratitue in emacs org mode</p>
+          <div className={styles.sectionList}>
+            <article className={styles.sectionBody}>
+              <h3>
+                <span>Trinity University</span> / B.S. Engineering Science
+              </h3>
+              <em>Aug. 2014-May 2019, San Antonio, TX</em>
+              <p>Earned a Bachelor of Science in Engineering with a minor in Mathematics</p>
+            </article>
           </div>
-          <div className={styles.sectionBody}>
-            <h1>
-              <span>Ethereum Validator</span> / Blockchain Validating Server
-            </h1>
-            <p>Setup an Ubuntu server to validate the ethereum 2.0 blockchain</p>
+        </section>
+        <section className={styles.section}>
+          <div className={styles.sectionLabel}>
+            <div></div>
+            <h2>Skills</h2>
           </div>
-          <div className={styles.sectionBody}>
-            <h1>
-              <span>Mysterium Node</span> / VPN Node
-            </h1>
-            <p>Setup VPN node on the mysterium network using a rasberry pi.</p>
+          <div className={styles.sectionList}>
+            <div className={styles.sectionBody}>
+              <p>
+                Languages: <span>Javascript, Python, Swift, Scala</span>
+              </p>
+              <p>
+                Tools/Frameworks: <span>React, React Native, Next.js, Serverless, Cypress, Figma, Storybook, AWS</span>
+              </p>
+            </div>
           </div>
-        </div>
-      </div>
-      <div className={styles.section}>
-        <div className={styles.sectionLabel}>
-          <div />
-          <h1>Education</h1>
-        </div>
-        <div className={styles.sectionList}>
-          <div className={styles.sectionBody}>
-            <h1>
-              <span>Trinity University</span> / B.S. Engineering Science
-            </h1>
-            <em>Aug. 2014-May 2019, San Antonio, TX</em>
-            <p>Earned a Bachelor of Science in Engineering with a minor in Mathematics</p>
-          </div>
-        </div>
-      </div>
-      <div className={styles.section}>
-        <div className={styles.sectionLabel}>
-          <div />
-          <h1>Skills</h1>
-        </div>
-        <div className={styles.sectionList}>
-          <div className={styles.sectionBody}>
-            <p>
-              Languages: <span>Javascript, Python, Scala, Swift, C</span>
-            </p>
-            <p>
-              Tools/Frameworks: <span>AWS, DynamoDB, SQL, React, React Native, Next.js, Serverless</span>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className={styles.section}>
-        <div className={styles.sectionLabel}>
-          <div />
-          <h1>Contact</h1>
-        </div>
-        <div className={styles.sectionList}>
-          <div className={styles.sectionBodyContact}>
-            <a href={'mailto:michael@wmbryce.dev'}> michael@wmbryce.dev </a>
-            <a href={'https://www.linkedin.com/in/wmbryce/'}> linkedin.com/in/wmbryce </a>
-            <a href={'https://github.com/wmbryce'}> github.com/wmbryce </a>
-          </div>
-        </div>
+        </section>
       </div>
     </PageLayout>
   );

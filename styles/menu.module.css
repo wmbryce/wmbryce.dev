@@ -9,9 +9,8 @@
   width: 270px;
   height: 250px;
   padding: 10px;
-  background-color: #d0d2d4;
   border-radius: 8px;
-  z-index: 500;
+  z-index: 1500;
 }
 
 .title {
